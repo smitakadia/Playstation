@@ -1,0 +1,381 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- DOM_TM -->
+
+    // BASE APPLICATION THEME
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Original AppCompat attributes. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorSecondary">@color/color_primary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        ///for notch display
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--        <item name="android:statusBarColor">@color/colorPrimary</item>-->
+        <!--        <item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="colorError">@android:color/holo_red_dark</item>
+
+    </style>
+
+
+    <style name="TutorialScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:statusBarColor">@color/white</item>
+
+    </style>
+
+
+
+
+
+    <style name="cardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">110dp</item>
+        <item name="android:layout_marginBottom">-19dp</item>
+        <item name="cardCornerRadius">19dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="suggestEditCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">88dp</item>
+        <item name="android:layout_marginBottom">-19dp</item>
+        <item name="cardCornerRadius">19dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="categoryCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">-19dp</item>
+        <item name="cardCornerRadius">19dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+    <style name="mapCategoryCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="cardCornerRadius">19dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="cardViewStyleMyAccount" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">-19dp</item>
+        <item name="cardCornerRadius">19dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+
+
+    <style name="AppTextBody3" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/text_size_body3</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SkipTextColor" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">@dimen/text_size_subtitle2</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+    </style>
+
+
+    <style name="AppProfileTitle" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="alpha">0.5</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+    </style>
+    <style name="AppProfilevalue" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="AppTextBody3Black" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/text_size_body3</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+    </style>
+
+    <style name="AppTextBody3TimeSlot" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/text_size_body1</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+    </style>
+
+
+    <style name="AppTextBody3Star" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">@dimen/text_size_body3</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="AppTextHeadline3" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/app_font_bold</item>
+        <item name="android:textSize">@dimen/text_size_headline3</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="AppTextTitleDialog" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">@dimen/text_size_headline3</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="AppMyAccountTitle" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+  <style name="AppMyAccountCount" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTextMyAccount" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppImageMyAccount" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="AppParentMyAccount" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+
+    <style name="AppTextEmptyBoxResDetail" >
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="AppTextEmptyBoxResDetailClick" >
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+
+
+
+
+    <style name="AppTextSubtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">@dimen/text_size_subtitle2</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextSubtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_subtitle2</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextName" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextSubtitle3" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_subtitle3</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CameraPermission" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_subtitle3</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="suggestEditText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_subtitle3</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextSubtitle4" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_subtitle2</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="welcome_text" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/text_size_headline6</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="welcome_text_name" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_headline6</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="categories" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">@dimen/text_size_body2</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="resDetailList" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="resAbout" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/text_size_body1</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+
+    <style name="lookingFor" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/app_font_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_subtitle2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LoginBody3" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/text_size_subtitle2</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="AppTextCaption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/text_size_caption</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="AppTextCaption1" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/text_size_caption1</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+
+    <style name="TextSubTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/app_font_bold</item>
+        <item name="android:textSize">@dimen/text_size_main_header</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextSubTitle2" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/subtitle_text2</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+    </style>
+
+    <style name="SubTitle2" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/app_font_bold</item>
+        <item name="android:textSize">@dimen/text_size_main_header</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextBody2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">@dimen/subtitle_text2</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+    </style>
+
+
+
+    <style name="AppTextSeperator" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/chip_deselection_bg</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    // BUTTON TEXT APPEARANCE
+
+    <!-- DOM_TM -->
+
+    <style name="AppTextTitle2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/app_font_bold</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="AppTextSubtitleForgotPwd" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+    </style>
+    <style name="AppTextSubtitleResend" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+    </style>
+    <style name="AppTextSubtitleSelectTaste" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/app_font_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/lighttextColor</item>
+    </style>
+
+    <style name="AppTextSubtitleForgotPwdBold" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/app_font_bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="AppTextSubtitleResendMail" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/app_font_medium</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!--        -->
+
+
+
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Playstation</string>
+    <string name="content">Content</string>
+    <string name="metacritic">Metacritic</string>
+    <string name="website">Website</string>
+    <string name="playtime">Playtime</string>
+    <string name="achievement">Achievement</string>
+    <string name="generes">Generes</string>
+    <string name="string_force_logout">You need to login again.</string>
+    <string name="string_authentication_failed">Authentication Failed</string>
+    <string name="string_web_response_null">It seems we\'r having trouble reaching server, try after some time</string>
+    <string name="string_no_data_found">No Data Found</string>
+    <string name="string_msg_no_internet">No Internet</string>
+</resources>

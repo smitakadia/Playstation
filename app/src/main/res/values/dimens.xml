@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--   =========== Bubble Navigation ==========   -->
+    <dimen name="default_corner_radii">56dp</dimen>
+    <dimen name="default_badge_corner_radii">16dp</dimen>
+    <dimen name="default_nav_item_padding">12dp</dimen>
+    <dimen name="default_nav_item_text_size">14sp</dimen>
+    <dimen name="default_nav_item_text_padding">8dp</dimen>
+    <dimen name="default_nav_item_title_max_width">80dp</dimen>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_nav_item_badge_padding">2dp</dimen>
+    <dimen name="default_nav_item_badge_text_size">7sp</dimen>
+    <!--   =========== Bubble Navigation ==========   -->
+
+<!--    domTm-->
+    <dimen name="rounded_button_corner_radius">46dp</dimen>
+    <dimen name="rounded_button_deselection_corner_radius">11dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="button_margin_horizontal">16dp</dimen>
+    <dimen name="button_corner_radius">8dp</dimen>
+    <dimen name="default_horizontal_margin">16dp</dimen>
+    <dimen name="margin_horizontal">16dp</dimen>
+    <dimen name="button_bottom_margin">67dp</dimen>
+
+    <!-- Map Category Fab Dynamic margin -->
+    <dimen name="map_bottom_margin">5dp</dimen>
+    <dimen name="list_bottom_margin">75dp</dimen>
+    <!-- Map Category Fab Dynamic margin -->
+
+    <!--Default card padding-->
+    <dimen name="default_horizontal_card_padding">16dp</dimen>
+    <dimen name="default_vertical_card_padding">20dp</dimen>
+    <!--Default card padding-->
+
+    <!--Default tab radius-->
+    <dimen name="default_tab_height">57dp</dimen>
+    <dimen name="default_tab_corner_radius">11dp</dimen>
+    <dimen name="default_tab_start_margin">8dp</dimen>
+    <dimen name="default_tab_end_margin">8dp</dimen>
+    <dimen name="default_tab_bottom_margin">48dp</dimen>
+    <!--Default tab radius-->
+
+    //TEXT APPEARANCE
+    <dimen name="subtitle_top_margin">14dp</dimen>
+    <dimen name="subText_top_margin">24dp</dimen>
+    <dimen name="login_icon_start_margin">12dp</dimen>
+    <dimen name="login_bottom_margin">60dp</dimen>
+    <dimen name="word_gap">5dp</dimen>
+    <dimen name="tnc">11sp</dimen>
+    <dimen name="welcome_margin_top">36.5dp</dimen>
+    <dimen name="start_back_corner">6dp</dimen>
+
+    <dimen name="location_corner">6dp</dimen>
+
+    <dimen name="res_detail_bg_width">44dp</dimen>
+    <dimen name="res_detail_icon_width">21dp</dimen>
+
+    //
+
+    // Standard Dimens
+
+    <dimen name="text_size_headline1">38sp</dimen>
+    <dimen name="text_size_headline2">36sp</dimen>
+    <dimen name="text_size_headline3">30sp</dimen>
+    <dimen name="text_size_headline4">28sp</dimen>
+    <dimen name="text_size_headline5">24sp</dimen>
+    <dimen name="text_size_headline6">20sp</dimen>
+    <dimen name="text_size_subtitle1">18sp</dimen>
+    <dimen name="text_size_subtitle2">16sp</dimen>
+    <dimen name="text_size_subtitle3">17sp</dimen>
+    <dimen name="text_size_body1">14sp</dimen>
+    <dimen name="text_size_body2">13sp</dimen>
+    <dimen name="text_size_body3">12sp</dimen>
+    <dimen name="text_size_caption">10sp</dimen>
+    <dimen name="text_size_caption1">11sp</dimen>
+    <dimen name="text_size_button">14sp</dimen>
+    <dimen name="text_size_overline">8sp</dimen>
+
+    <dimen name="text_size_main_header">22sp</dimen>
+
+    //EDIT TEXT APPEARANCE
+    <dimen name="or_text_top_margin">27dp</dimen>
+    <dimen name="edt_corner">8dp</dimen>
+    <dimen name="edt_height">66dp</dimen>
+    <dimen name="category_radius">12dp</dimen>
+
+    //BUTTON APPEARANCE
+    <dimen name="sign_in_top_margin">20dp</dimen>
+    <dimen name="sign_up_top_margin">32dp</dimen>
+
+    <dimen name="body_2_text">16sp</dimen>
+
+    <dimen name="subtitle_text">22dp</dimen>
+    <dimen name="subtitle_text1">24sp</dimen>
+    <dimen name="subtitle_text2">14dp</dimen>
+
+<!--    -->
+
+    <dimen name="bottom_margin">20dp</dimen>
+    <dimen name="left_margin">30dp</dimen>
+    <dimen name="right_margin">30dp</dimen>
+    <dimen name="top_margin">20dp</dimen>
+
+    <dimen name="login_flow_margin_vertical">30dp</dimen> <!-- Top-Bottom -->
+    <dimen name="login_flow_margin_horizontal">30dp</dimen> <!-- Left-Right -->
+
+    <dimen name="main_flow_margin_vertical">20dp</dimen>
+    <dimen name="main_flow_margin_horizontal">20dp</dimen>
+
+    <dimen name="login_signup_card_margin_vertical">22dp</dimen>
+    <dimen name="toolbar_height">120dp</dimen>
+    <dimen name="login_expanded_toolbar_height">200dp</dimen>
+    <dimen name="login_collapsed_toolbar_height">150dp</dimen>
+
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="details_card_corner_radius">12dp</dimen>
+    <dimen name="dialog_corner_radius">8dp</dimen>
+    <dimen name="app_thin_border_width">0.7dp</dimen>
+    <dimen name="upload_document_button_background_radius">13dp</dimen>
+    <dimen name="toolbar_corner_radius">16dp</dimen>
+    <dimen name="login_signup_card_corner_radius">16dp</dimen>
+
+    <dimen name="card_margin_vertical">8dp</dimen>
+    <dimen name="card_padding_vertical">16dp</dimen>
+    <dimen name="card_padding_horizontal">20dp</dimen>
+    <dimen name="card_items_margin_top">16dp</dimen>
+    <dimen name="image_margin_horizontal">4dp</dimen>
+    <dimen name="app_corner_radius">10dp</dimen>
+
+    // Card Dimens
+    <dimen name="bank_card_corner_radius">12dp</dimen>
+    <dimen name="bank_card_margin_horizontal">20dp</dimen>
+    <dimen name="bank_card_margin_vertical">26dp</dimen>
+
+    // Button Dimens
+    <dimen name="toggle_button_corner_radius">3dp</dimen>
+    <dimen name="button_min_width">180dp</dimen>
+
+    <dimen name="short_button_height">48dp</dimen>
+    <dimen name="bottom_button_corner_radius">12dp</dimen>
+
+    // EditText Dimens
+
+    <dimen name="text_input_layout_margin_horizontal">16dp</dimen>
+    <dimen name="text_input_layout_margin_top">4dp</dimen>
+    <dimen name="text_input_layout_border_stroke_width">1dp</dimen>
+    <dimen name="text_input_layout_active_border_stroke_width">2.5dp</dimen>
+
+    <dimen name="edit_text_margin_top">34dp</dimen>
+    <dimen name="edit_text_margin_bottom">6dp</dimen>
+    <dimen name="edit_text_margin_horizontal">0dp</dimen>
+    <dimen name="edit_text_padding_end">8dp</dimen>
+    <dimen name="edit_text_hint_text_size">@dimen/text_size_body1</dimen>
+    <dimen name="edit_text_floating_text_size">@dimen/text_size_body1</dimen>
+    <dimen name="edit_text_text_size">@dimen/text_size_subtitle1</dimen>
+
+
+
+    <!--    profile screen-->
+    <dimen name="profile_view_margin">10dp</dimen>
+
+    <!--    material drawer-->
+    <dimen name="drawer_item_left_margin">14dp</dimen>
+    <dimen name="drawer_itm_bottom_margin">15dp</dimen>
+
+    <dimen name="divider_thickness">0.7dp</dimen>
+
+<!--    <dimen name="chat_margin_vertical">4dp</dimen>-->
+<!--    <dimen name="chat_large_margin_vertical">16dp</dimen>-->
+
+    <dimen name="chat_margin_vertical">12dp</dimen>
+    <dimen name="chat_same__margin_vertical">4dp</dimen>
+
+    <dimen name="ongoing_job_detail_margin_top">350dp</dimen>
+    <dimen name="no_map_job_detail_margin_top">16dp</dimen>
+
+    <dimen name="map_container_margin_top">-16dp</dimen>
+    <dimen name="no_map_container_margin_top">0dp</dimen>
+
+    <!--Default card top margin-->
+    <dimen name="default_card_content_margin_top">120dp</dimen>
+
+</resources>
