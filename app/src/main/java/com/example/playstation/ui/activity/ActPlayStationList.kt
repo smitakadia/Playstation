@@ -76,13 +76,14 @@ class ActPlayStationList : ActBase<ActPlaystationListBinding>() {
         userViewModel.playstationList(pageCount.toString(), pageSize, "released", COMMON_KEY)
             ?.observe(this@ActPlayStationList, Observer { resultModel ->
 
-                dismissLoader()
+
 
                 if (resultModel == null) {
                     showErrorAlert(
                         getString(R.string.string_web_response_null),
                         "Something went wrong"
                     )
+
                     return@Observer
                 }
 
@@ -104,6 +105,8 @@ class ActPlayStationList : ActBase<ActPlaystationListBinding>() {
 
                     callback.updateCondition(userList.isNotEmpty())
                 }
+
+                 dismissLoader()
 
                 showNoData(
                     mBinding.rvUser,
